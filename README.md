@@ -1,2 +1,3 @@
 # AgrMayank.github.io
-My Portfolio/Online Resume Website.
+
+Code & content of my Portfolio website is kept here.
