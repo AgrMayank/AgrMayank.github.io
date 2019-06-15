@@ -1,3 +1,5 @@
 # AgrMayank.github.io
 
-Code & content of my Portfolio website is kept here.
+__*This Repo contains:*__
+  - Code & content of my Portfolio website
+  - Latest version of my Resume/CV
