@@ -1460,6 +1460,9 @@ ol {
 }
 
 .padd{
-	border: 5px solid rgba(255, 255, 255, 0.15);
+	border: 5px solid rgba(175, 175, 175, 0.1);
 	padding: 10px;
+	text-align: center;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.5);
 }
