@@ -99,6 +99,7 @@ ol {
 --------------------------*/
 
 /* Preloder */
+/*
 #preloder {
 	position: fixed;
 	width: 100%;
@@ -151,6 +152,7 @@ ol {
 		-webkit-transform: rotate(360deg);
 	}
 }
+*/
 
 /* Site Buttons */
 .site-btn {
