@@ -341,23 +341,26 @@
 			<div class="auto-resizable-iframe portfolio-warp row">
 				<div class="col-xl-6 col-lg-6 col-md-6">
 					<div>
-						<iframe src="https://www.youtube.com/embed/eWsj6oXdixs" frameborder="0"
+						<iframe src="" data-src="https://www.youtube.com/embed/eWsj6oXdixs" frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+							allowfullscreen>
+						</iframe>
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-6">
 					<div>
-						<iframe src="https://www.youtube.com/embed/Q5jT1cb_o1o" frameborder="0"
+						<iframe src="" data-src="https://www.youtube.com/embed/Q5jT1cb_o1o" frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+							allowfullscreen>
+						</iframe>
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-6">
 					<div>
-						<iframe src="https://www.youtube.com/embed/-JnQDA3Q2LI" frameborder="0"
+						<iframe src="" data-src="https://www.youtube.com/embed/-JnQDA3Q2LI" frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+							allowfullscreen>
+						</iframe>
 					</div>
 				</div>
 			</div>
@@ -622,6 +625,17 @@
 
 
 	<!--====== Javascripts & Jquery ======-->
+	<script>
+		function init() {
+			var vidDefer = document.getElementsByTagName('iframe');
+			for (var i = 0; i < vidDefer.length; i++) {
+				if (vidDefer[i].getAttribute('data-src')) {
+					vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
+				}
+			}
+		}
+		window.onload = init;
+	</script>
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
