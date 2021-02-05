@@ -1,4 +1,4 @@
-# AgrMayank.github.io
+# AgrMayank.github.io (AgrMayank.com)
 
 ![GitHub issues](https://img.shields.io/github/issues/AgrMayank/AgrMayank.github.io?label=Issues&style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/AgrMayank.github.io?label=Pull%20Requests&style=flat-square)
