@@ -6,6 +6,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AgrMayank/AgrMayank.github.io?label=Commit%20Activity&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AgrMayank/AgrMayank.github.io?label=Repo%20Size&style=flat-square)
 
-__*This Repo contains:*__
-  - Code & content of my Portfolio website
-  - Latest version of my Resume/CV
+**_This Repo contains:_**
+
+- Code & content of my Portfolio website
+- Latest version of my Resume/CV
