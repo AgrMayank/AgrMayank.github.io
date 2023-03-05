@@ -988,3 +988,26 @@ article[role="pge-title-content"].contact-header p a:hover {
 .commentys-form input[type="button"]:hover {
   background-color: #ff5c5c;
 }
+
+/* Custom CSS */
+.auto-resizable-iframe {
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe>div {
+  position: relative;
+  padding-bottom: 30%;
+  min-height: 320px;
+  height: auto;
+  border: 10px solid #ffffff80;
+  overflow: hidden;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
