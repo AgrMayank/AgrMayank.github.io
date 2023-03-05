@@ -3,9 +3,7 @@
 =======================*/
 
 .page_404 {
-  padding: 40px 0;
-  background: #fff;
-  font-family: "Arvo", serif;
+  background: #ffffff;
 }
 
 .page_404 img {
@@ -14,7 +12,7 @@
 
 .four_zero_four_bg {
   background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-  height: 400px;
+  height: 404px;
   background-position: center;
 }
 
@@ -47,8 +45,4 @@
 .link_404:hover {
   -webkit-transform: rotate(-4deg) translate3d(0%, -4%, 0);
   transform: rotate(0deg) translate3d(0%, -4%, 0);
-}
-
-.contant_box_404 {
-  margin-top: -50px;
 }
