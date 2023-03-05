@@ -7,9 +7,9 @@ body.lb-disable-scrolling {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  background-color: white;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
   display: none;
 }
 
@@ -32,7 +32,7 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  border: 4px solid #ffffff;
 }
 
 .lightbox a img {
@@ -70,9 +70,9 @@ body.lb-disable-scrolling {
 
 .lb-cancel {
   display: block;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
+  width: auto;
+  height: auto;
+  margin: auto;
   background: url(../images/lightbox/loadingAlt.gif) no-repeat;
 }
 
@@ -153,8 +153,8 @@ body.lb-disable-scrolling {
 }
 
 .lb-data {
-  padding: 0 4px;
-  color: #ccc;
+  padding: 8px 8px;
+  color: #404040;
 }
 
 .lb-data .lb-details {
@@ -171,15 +171,15 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption a {
-  color: #4ae;
+  color: #fb5353;
 }
 
 .lb-data .lb-number {
   display: block;
   clear: left;
-  padding-bottom: 1em;
+  padding: 8px 0 1em;
   font-size: 12px;
-  color: #999999;
+  color: #353535;
 }
 
 .lb-data .lb-close {
