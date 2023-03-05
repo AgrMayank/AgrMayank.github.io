@@ -252,6 +252,7 @@ button:focus,
 
 @font-face {
   font-family: "Open Sans", sans-serif;
+  src: local("../fonts/OpenSans.ttf");
 }
 
 /*===== Header ===*/
