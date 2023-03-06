@@ -238,6 +238,40 @@ button:focus,
   outline: none;
 }
 
+.bigButton {
+  text-align: center;
+  display: block;
+  border: none;
+  outline: none;
+  width: auto;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 2px;
+  background-color: #e84d49;
+}
+
+.bigButton:hover {
+  background-color: #f8524e;
+  color: #fff;
+}
+
+.bigButton:visited,
+:active,
+:link {
+  color: #fff;
+}
+
+.bigButton:link {
+  color: #fff;
+}
+
+.bigButton:active {
+  color: #fff;
+}
+
 ::-moz-selection {
   background-color: #fb5353;
   color: #fff;
@@ -400,7 +434,7 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {
 
 main[role="main-home-wrapper"],
 main[role="main-inner-wrapper"] {
-  padding-bottom: 90px;
+  padding-bottom: 64px;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],
@@ -442,7 +476,7 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
 footer[role="footer"] {
   background-color: #fff;
   padding-top: 100px;
-  padding-bottom: 77px;
+  padding-bottom: 64px;
 }
 
 footer[role="footer"]>h1 a {
@@ -601,7 +635,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption 
 /*===== Blog ===*/
 
 article[role="pge-title-content"].blog-header {
-  padding-bottom: 218px;
+  padding-bottom: 64px;
 }
 
 section.blog-content {
@@ -657,7 +691,7 @@ section.blog-content:hover figure img {
 /*===== Contact ===*/
 
 article[role="pge-title-content"].contact-header {
-  padding-bottom: 218px;
+  padding-bottom: 64px;
 }
 
 article[role="pge-title-content"].contact-header p a {
