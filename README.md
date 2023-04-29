@@ -1,4 +1,4 @@
-# [AgrMayank.github.io](AgrMayank.github.io) | [AgrMayank.com](AgrMayank.com)
+# [AgrMayank.github.io](https://AgrMayank.github.io) | [AgrMayank.com](https://agrmayank.com/)
 
 <a href="AgrMayank.com" title="AgrMayank">
     <p align="center">
@@ -15,7 +15,7 @@
 
 ## URL
 
-Website URL - [AgrMayank.com](AgrMayank.com)
+Website URL - [AgrMayank.com](https://agrmayank.com/)
 
 ## About
 
