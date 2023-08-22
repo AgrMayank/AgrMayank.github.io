@@ -66,6 +66,41 @@
   <link href="css/effects/normalize.css" rel="stylesheet" type="text/css" />
 
   <link href="css/effects/component.css" rel="stylesheet" type="text/css" />
+
+  <!--Custom Smooth Scroll Code-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            1200,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+  </script>
+
+  <!--End of Custom Smooth Scroll Code-->
+
 </head>
 
 <!-- Google tag (gtag.js) -->
@@ -170,14 +205,20 @@
 
   <!-- main - experience -->
 
-  <main role="main-inner-wrapper" class="container">
+  <main role="main-inner-wrapper" class="container" id="work-details">
     <!-- work details -->
 
     <div class="work-details">
 
+      <h2 style="position: absolute;right: 0; width: fit-content;">
+        <span>
+          <a href="#portfolio-images" class="bigButton" style="color: white; padding: 0px 16px;">Next →</a>
+        </span>
+      </h2>
+
       <article role="pge-title-content">
         <header>
-          <h2>Work & <span>Experience</span></h2>
+          <h2>Work & <span>Experience</span> </h2>
         </header>
       </article>
 
@@ -200,7 +241,8 @@
             <p>
               <strong> • </strong>
               Acquired by
-              <a href="https://www.nextechar.com/" style="color: #fb5353; font-weight: bold" target="_blank">Nextech AR
+              <a href="https://www.nextechar.com/" style="color: #fb5353; font-weight: bold" target="_blank">Nextech
+                AR
                 Solutions
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>
               in September 2021, which later became a spinoff as
@@ -221,7 +263,8 @@
               Developed
               <a href="https://play.londonwallplace.com/" style="color: #fb5353; font-weight: bold"
                 target="_blank">HARMONY
-                <i class="fa fa-external-link" aria-hidden="true"></i></a>, a mini-metaverse in the heart of London that
+                <i class="fa fa-external-link" aria-hidden="true"></i></a>, a mini-metaverse in the heart of London
+              that
               features
               Augmented Reality artwork compositions from students at
               Guildhall School of Music & Drama and London Symphony Orchestra.
@@ -458,12 +501,19 @@
 
   <!-- main - portfolio images -->
 
-  <main role="main-home-wrapper" class="container">
+  <main role="main-home-wrapper" class="container" id="portfolio-images">
+
+    <h2 style="position: absolute;right: 0; width: fit-content;">
+      <span>
+        <a href="#portfolio-videos" class="bigButton" style="color: white; padding: 0px 16px;">Next →</a>
+      </span>
+    </h2>
+
     <div class="row">
 
       <article role="pge-title-content">
         <header>
-          <h2>Blender 3D <span>Portfolio</span></h2>
+          <h2>Blender 3D <span>Portfolio</span> </h2>
         </header>
       </article>
 
@@ -647,7 +697,7 @@
 
   <!-- main - portfolio videos -->
 
-  <main role="main-home-wrapper" class="container">
+  <main role="main-home-wrapper" class="container" id="portfolio-videos">
     <div class="row">
 
       <article role="pge-title-content">
@@ -662,6 +712,13 @@
       <!-- Videos -->
 
       <div class="auto-resizable-iframe">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
+          <div>
+            <iframe src="" data-src="https://www.youtube.com/embed/YDwkMSR3UPk" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
           <div>
             <iframe src="" data-src="https://www.youtube.com/embed/cEALcU6JT14" frameborder="0"
