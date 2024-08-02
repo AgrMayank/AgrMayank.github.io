@@ -49,6 +49,10 @@
 
   <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
+  <!-- AOS (Animate On Scroll) -->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- lightbox -->
 
   <link href="css/lightbox.css" rel="stylesheet" />
@@ -124,8 +128,9 @@
       <!-- logo -->
 
       <h1>
-        <a href="index.html" title="AgrMayank"><img height="96" src="images/AgrMayank Logo V01.jpg"
-            title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
+        <a href="index.html" title="AgrMayank"><img style="width: 50%; min-width: 96px"
+            src="images/AgrMayank Logo V01T.png" title="AgrMayank Logo" alt="AgrMayank Logo" />
+        </a>
       </h1>
 
       <!-- logo -->
@@ -145,7 +150,7 @@
             <a href="projects.html" title="Projects"><i class="fa fa-git" aria-hidden="true"></i> Open Source
               Projects</a>
           </li>
-          <hr style="color: #66666666;border: 2px dashed;" />
+          <hr style="border: 2px dashed;" />
           <li>
             <a href="cv/Resume - Mayank Raj.pdf" title="Resume" target="_blank">
               <i class="fa fa-download" aria-hidden="true"></i> Resume (CV)
@@ -164,39 +169,15 @@
 
   <main role="main-inner-wrapper" class="container">
     <div class="row">
-      <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <article role="pge-title-content">
-          <header>
-            <h2>Hi!</h2>
-            <h3>&nbsp;&nbsp; I'm</h3>
-            <h2><span>&nbsp;&nbsp;Mayank</span></h2>
-          </header>
-          <article class="about-content">
-            <h3 style="color: white">
-              Merging Realities | Building the Metaverse
-            </h3>
-            <hr style="border: 2px dashed white;" />
-            <p style="color: white">
-              Creating
-              <i>"breathtakingly immersive experiences".</i>
-            </p>
-          </article>
-        </article>
-      </section>
 
-      <div class="thumbnails-pan">
-        <section class="col-xs-10 col-sm-6 col-md-4 col-lg-6">
-          <p style="padding-top: 44px"></p>
-          <figure>
-            <img src="images/about-images/agrmayank monotone v2.png" class="img-responsive" />
+      <p class="outline" style="padding-top: 128px;" data-aos="fade-right" data-aos-duration="2000">AgrMayank</p>
+      <p class="outline" style="font-size: 64px; color: #fff;" data-aos="fade-right" data-aos-duration="3000">Merging
+        Realities</p>
 
-            <figcaption>
-              <h3>Mayank Raj</h3>
-              <h5>Merging Realities</h5>
-            </figcaption>
-          </figure>
-        </section>
-      </div>
+      <img src="images/about-images/agrmayank monotone v2.png"
+        style="position:absolute; right: 15%; top: 192px; height: clamp(128px, 30vh, 512px)" data-aos="fade-left"
+        data-aos-duration="3000" />
+
     </div>
   </main>
 
@@ -204,7 +185,7 @@
 
     <!-- nav -->
 
-    <nav role="footer-nav" style="padding: 0;">
+    <nav role="footer-nav" style="padding-bottom: 0px;">
       <ul>
         <!-- <li class="nav-active">
           <a href="index.html" title="Home" style="font-size: larger"><i class="fa fa-home" aria-hidden="true"></i>
@@ -246,7 +227,7 @@
 
     <h2 style="position: absolute;right: 0; width: fit-content;">
       <span>
-        <a href="#portfolio-images" class="bigButton" style="color: white; padding: 0px 16px;">⬇</a>
+        <a href="#portfolio-images" class="bigButton" style="padding: 0px 24px;">⬇</a>
       </span>
     </h2>
 
@@ -266,7 +247,7 @@
           <header role="work-title">
             <h2>Amnesea</h2>
             <hr style="border: 0px dashed;">
-            <h4>Co-Founder</h4>
+            <p>Co-Founder</p>
             <a href="https://amnesea.com/" target="_blank">07/2022 - Present<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
           </header>
@@ -276,11 +257,10 @@
           <section>
             <p>
               <strong> • </strong>
-              Presented <a href="https://agrmayank.itch.io/timebound" style="color: #fb5353; font-weight: bold"
+              Presented <a href="https://agrmayank.itch.io/timebound" style="font-weight: bold"
                 target="_blank">TimeBound
                 <i class="fa fa-external-link" aria-hidden="true"></i></a> and
-              <a href="https://agrmayank.itch.io/keybound" style="color: #fb5353; font-weight: bold"
-                target="_blank">KeyBound
+              <a href="https://agrmayank.itch.io/keybound" style="font-weight: bold" target="_blank">KeyBound
                 <i class="fa fa-external-link" aria-hidden="true"></i></a> at India Game Developers Conference (IGDC)
               2023, receiving an overwhelmingly positive response from the attendees, investors and publishers.
             </p>
@@ -300,18 +280,18 @@
       </div>
 
       <div class="clearfix"></div>
-      <hr style="color: #66666666;border: 1px dashed;" />
+      <hr style="border: 1px dashed;" />
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <header role="work-title">
             <h2>ARway</h2>
             <hr style="border: 0px dashed;">
-            <h4>Senior Unity Developer</h4>
+            <p>Senior Unity Developer</p>
             <a href="https://www.arway.ai/" target="_blank">03/2024 - Present<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
             <hr style="border: 0px dashed;">
-            <h4>AR Developer</h4>
+            <p>AR Developer</p>
             <a href="https://www.arway.ai/" target="_blank">08/2020 - 03/2024<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
           </header>
@@ -322,12 +302,12 @@
             <p>
               <strong> • </strong>
               Acquired by
-              <a href="https://www.nextechar.com/" style="color: #fb5353; font-weight: bold" target="_blank">Nextech
+              <a href="https://www.nextechar.com/" style="font-weight: bold" target="_blank">Nextech
                 AR
                 Solutions
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>
               in September 2021, which later became a spinoff as
-              <a href="https://www.arway.ai/" style="color: #fb5353; font-weight: bold" target="_blank">ARway <i
+              <a href="https://www.arway.ai/" style="font-weight: bold" target="_blank">ARway <i
                   class="fa fa-external-link" aria-hidden="true"></i></a>
               in October 2022.
             </p>
@@ -346,8 +326,7 @@
             <p>
               <strong> • </strong>
               Developed
-              <a href="https://play.londonwallplace.com/" style="color: #fb5353; font-weight: bold"
-                target="_blank">HARMONY
+              <a href="https://play.londonwallplace.com/" style="font-weight: bold" target="_blank">HARMONY
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>, a mini-metaverse in the heart of London
               that
               features
@@ -364,14 +343,14 @@
       </div>
 
       <div class="clearfix"></div>
-      <hr style="color: #66666666;border: 1px dashed;" />
+      <hr style="border: 1px dashed;" />
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <header role="work-title">
             <h2>Nextech AR Solutions</h2>
             <hr style="border: 0px dashed;">
-            <h4>AR Developer</h4>
+            <p>AR Developer</p>
             <a href="https://www.nextechar.com/" target="_blank">09/2021 - 03/2024<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
           </header>
@@ -382,7 +361,7 @@
             <p>
               <strong> • </strong>
               Acquired
-              <a href="https://www.arway.ai/" style="color: #fb5353; font-weight: bold" target="_blank">ARway <i
+              <a href="https://www.arway.ai/" style="font-weight: bold" target="_blank">ARway <i
                   class="fa fa-external-link" aria-hidden="true"></i></a>
               in September 2021, which later became a spinoff in October 2022.
             </p>
@@ -402,14 +381,14 @@
       </div>
 
       <div class="clearfix"></div>
-      <hr style="color: #66666666;border: 1px dashed;" />
+      <hr style="border: 1px dashed;" />
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <header role="work-title">
             <h2>AgrMayank Studios</h2>
             <hr style="border: 0px dashed;">
-            <h4>Founder</h4>
+            <p>Founder</p>
             <a href="https://studios.agrmayank.com/" target="_blank">06/2020 - Present<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
           </header>
@@ -420,19 +399,18 @@
             <p>
               <strong> • </strong>
               Launched popular AR-powered apps, including
-              <a href="https://ballooninvaders.agrmayank.com/" style="color: #fb5353; font-weight: bold"
-                target="_blank">Balloon Invaders
+              <a href="https://ballooninvaders.agrmayank.com/" style="font-weight: bold" target="_blank">Balloon
+                Invaders
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>,
-              <a href="https://planetsar.agrmayank.com/" style="color: #fb5353; font-weight: bold"
-                target="_blank">Planets AR
+              <a href="https://planetsar.agrmayank.com/" style="font-weight: bold" target="_blank">Planets AR
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>,
-              <a href="https://www.amazon.com/dp/B08T8HW8MV" style="color: #fb5353; font-weight: bold"
-                target="_blank">Zombies Incoming!!
+              <a href="https://www.amazon.com/dp/B08T8HW8MV" style="font-weight: bold" target="_blank">Zombies
+                Incoming!!
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>, as well as an image converter called ,
-              <a href="https://imagd.agrmayank.com/" style="color: #fb5353; font-weight: bold" target="_blank">Imagd
+              <a href="https://imagd.agrmayank.com/" style="font-weight: bold" target="_blank">Imagd
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>, all of which are available on
-              <a href="https://play.google.com/store/apps/dev?id=8444157410268700876"
-                style="color: #fb5353; font-weight: bold" target="_blank">Google Play
+              <a href="https://play.google.com/store/apps/dev?id=8444157410268700876" style="font-weight: bold"
+                target="_blank">Google Play
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>.
             </p>
             <p>
@@ -451,14 +429,14 @@
       </div>
 
       <div class="clearfix"></div>
-      <hr style="color: #66666666;border: 1px dashed;" />
+      <hr style="border: 1px dashed;" />
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <header role="work-title">
             <h2>Round Them Oranges</h2>
             <hr style="border: 0px dashed;">
-            <h4>Unity VR Developer</h4>
+            <p>Unity VR Developer</p>
             <a href="https://roundthemoranges.github.io/" target="_blank">01/2021 - 05/2021<i
                 class="fa fa-external-link" aria-hidden="true"></i></a>
           </header>
@@ -469,8 +447,7 @@
             <p>
               <strong> • </strong>
               Built
-              <a href="https://roundthemoranges.github.io/" style="color: #fb5353; font-weight: bold"
-                target="_blank">Virtual Segments
+              <a href="https://roundthemoranges.github.io/" style="font-weight: bold" target="_blank">Virtual Segments
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>
               - a digital web gallery that showcases diverse artworks from
               around the world in an immersive and engaging way keeping
@@ -495,14 +472,14 @@
       </div>
 
       <div class="clearfix"></div>
-      <hr style="color: #66666666;border: 1px dashed;" />
+      <hr style="border: 1px dashed;" />
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <header role="work-title">
             <h2>North Shore Therapeutics</h2>
             <hr style="border: 0px dashed;">
-            <h4>AR Developer</h4>
+            <p>AR Developer</p>
             <a href="https://northshore.health/#nstSsd" target="_blank">08/2020<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
           </header>
@@ -513,8 +490,8 @@
             <p>
               <strong> • </strong>
               Developed
-              <a href="https://northshore.health/#nstSsd" style="color: #fb5353; font-weight: bold"
-                target="_blank">NST-SSD: Therapeutic Augmented Reality
+              <a href="https://northshore.health/#nstSsd" style="font-weight: bold" target="_blank">NST-SSD: Therapeutic
+                Augmented Reality
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>
               for Schizophrenia to cure the negative symptoms of schizophrenia
               that obstruct reward circuitry in the brain.
@@ -534,14 +511,14 @@
       </div>
 
       <div class="clearfix"></div>
-      <hr style="color: #66666666;border: 1px dashed;" />
+      <hr style="border: 1px dashed;" />
 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4">
           <header role="work-title">
             <h2>Noora Health</h2>
             <hr style="border: 0px dashed;">
-            <h4>Senior AR Developer</h4>
+            <p>Senior AR Developer</p>
             <a href="https://noorahealth.org/" target="_blank">04/2020 - 06/2020<i class="fa fa-external-link"
                 aria-hidden="true"></i></a>
           </header>
@@ -553,7 +530,7 @@
               <strong> • </strong>
               Developed
               <a href="https://drive.google.com/file/d/1XYfUCfd_9Q2mgFwB0qP4syoPG0EB2bzX/view?usp=sharing"
-                style="color: #fb5353; font-weight: bold" target="_blank">Virus Warrior
+                style="font-weight: bold" target="_blank">Virus Warrior
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>, a coronavirus shooting game in Augmented
               Reality (AR) to help
               over a thousand nurses to relieve workload stress during the
@@ -563,7 +540,7 @@
               <strong> • </strong>
               Developed
               <a href="https://drive.google.com/file/d/16HV6YVbgg6obAJ897dXh5z81vCRDK49R/view?usp=sharing"
-                style="color: #fb5353; font-weight: bold" target="_blank">PPE Trainer
+                style="font-weight: bold" target="_blank">PPE Trainer
                 <i class="fa fa-external-link" aria-hidden="true"></i></a>
               , an AR app that allows nurses to practice and perfect their
               donning and doffing procedures for COVID-19 equipment, leading
@@ -584,7 +561,7 @@
 
   <!-- main - experience -->
 
-  <hr style="color: #66666666;border: 2px dashed;" />
+  <hr style="border: 2px dashed;" />
 
   <!-- main - portfolio images -->
 
@@ -592,8 +569,8 @@
 
     <h2 style="position: absolute;right: 0; width: fit-content;">
       <span>
-        <a href="#work-details" class="bigButton" style="color: white; padding: 0px 16px;">⬆</a>
-        <a href="#portfolio-videos" class="bigButton" style="color: white; padding: 0px 16px;">⬇</a>
+        <a href="#work-details" class="bigButton" style="padding: 0px 24px;">⬆</a>
+        <a href="#portfolio-videos" class="bigButton" style="padding: 0px 24px;">⬇</a>
       </span>
     </h2>
 
@@ -782,7 +759,7 @@
 
   <!-- main - portfolio images -->
 
-  <hr style="color: #66666666;border: 2px dashed;" />
+  <hr style="border: 2px dashed;" />
 
   <!-- main - portfolio videos -->
 
@@ -790,7 +767,7 @@
 
     <h2 style="position: absolute;right: 0; width: fit-content;">
       <span>
-        <a href="#portfolio-images" class="bigButton" style="color: white; padding: 0px 16px;">⬆</a>
+        <a href="#portfolio-images" class="bigButton" style="padding: 0px 24px;">⬆</a>
       </span>
     </h2>
 
@@ -937,7 +914,7 @@
 
     <h1>
       <a href="index.html" title="AgrMayank"><img style="width: 50%; min-width: 72px"
-          src="images/AgrMayank Logo V02T.png" title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
+          src="images/AgrMayank Logo V01T.png" title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
     </h1>
 
     <!-- logo -->
@@ -1005,6 +982,11 @@
   </footer>
 
   <!-- footer -->
+
+  <!-- AOS (Animate On Scroll) -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> AOS.init(); </script>
 
   <!-- lightbox -->
 
