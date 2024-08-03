@@ -71,8 +71,11 @@
 
   <link href="css/effects/component.css" rel="stylesheet" type="text/css" />
 
-  <!--Custom Smooth Scroll Code-->
+  <!-- jQuery -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--Custom Smooth Scroll Code-->
 
   <script>
     $(document).ready(function () {
@@ -121,6 +124,28 @@
 </script>
 
 <body>
+
+  <!-- loader -->
+
+  <div class="loader">
+    <div id="box">
+      <div id="box">
+        <div id="box">
+          <div id="box">
+            <div id="box">
+              <div id="box">
+                <div id="box">
+                  <div id="box">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- header -->
 
   <header-component></header-component>
@@ -603,6 +628,14 @@
   <script src="js/footer.js"></script>
   <script src="js/header.js"></script>
   <script src="js/navbar.js"></script>
+
+  <!-- Loader -->
+
+  <script>
+    $(window).on("load", function () {
+      $(".loader").fadeOut(" slow");
+    })
+  </script>
 
   <!-- AOS (Animate On Scroll) -->
 
