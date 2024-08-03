@@ -47,6 +47,11 @@
   --color-success: #60ca6f;
 }
 
+/* CURSOR */
+body {
+  cursor: url(../images/cursors/Light_Cursor.svg), default;
+}
+
 body {
   background-image: url("../images/background/Abstract\ BG\ 6.jpeg");
   background-repeat: repeat;
