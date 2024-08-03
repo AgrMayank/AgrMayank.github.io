@@ -39,8 +39,8 @@
   --color-white: #ffffff;
   --color-clear: #ffffff00;
   --color-text-title: #d1bfb0;
-  --color-text-subtitle: #fff8ed;
-  --color-text-normal: #fff8ed;
+  --color-text-subtitle: #fdf3e9;
+  --color-text-normal: #fff9f0;
   --color-text-footer: #dddddd;
   --color-theme-red: #fb5353;
   --color-success: #60ca6f;
@@ -282,7 +282,7 @@ button:focus,
   line-height: 60px;
   text-transform: uppercase;
   font-size: 20px;
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   font-weight: 800;
   letter-spacing: 2px;
   background-color: var(--color-theme-red);
@@ -290,21 +290,21 @@ button:focus,
 
 .bigButton:hover {
   background-color: var(--color-theme-red);
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
 }
 
 .bigButton:visited,
 :active,
 :link {
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
 }
 
 .bigButton:link {
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
 }
 
 .bigButton:active {
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
 }
 
 ::-moz-selection {
