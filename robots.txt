@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Disallow: /oldThemeV2/
+Disallow:
 Sitemap: https://agrmayank.com/sitemap.xml
