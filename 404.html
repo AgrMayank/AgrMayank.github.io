@@ -50,6 +50,10 @@
 
   <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
+  <!-- AOS (Animate On Scroll) -->
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- font-awesome -->
 
   <link href="css/fonts.css" rel="stylesheet" type="text/css" />
@@ -91,8 +95,9 @@
       <!-- logo -->
 
       <h1>
-        <a href="index.html" title="AgrMayank"><img height="96" src="images/AgrMayank Logo V01.jpg"
-            title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
+        <a href="index.html" title="AgrMayank"><img style="width: 50%; min-width: 96px"
+            src="images/AgrMayank Logo V01T.png" title="AgrMayank Logo" alt="AgrMayank Logo" />
+        </a>
       </h1>
 
       <!-- logo -->
@@ -112,7 +117,7 @@
             <a href="projects.html" title="Projects"><i class="fa fa-git" aria-hidden="true"></i> Open Source
               Projects</a>
           </li>
-          <hr style="color: #66666666;border: 2px dashed;" />
+          <hr style="border: 2px dashed;" />
           <li>
             <a href="cv/Resume - Mayank Raj.pdf" title="Resume" target="_blank">
               <i class="fa fa-download" aria-hidden="true"></i> Resume (CV)
@@ -133,17 +138,36 @@
     <div>
       <div class="row">
         <div>
-          <div class="page_404">
-            <main role="main-inner-wrapper" class="container">
-              <article role="pge-title-content" class="blog-header">
-                <header>
-                  <h2><span>404</span> Looks like you're lost..</h2>
-                </header>
-              </article>
-            </main>
-            <div class="four_zero_four_bg"></div>
-            <a class="bigButton" href="index.html">Let me help you find the way</a>
+          <main role="main-inner-wrapper" class="container">
+            <article role="pge-title-content" class="blog-header">
+              <header>
+                <h2 data-aos="fade-right" data-aos-duration="3000"><span>404</span> Looks like you're lost..</h2>
+              </header>
+            </article>
+          </main>
+
+          <div id="loader" data-aos="fade-left">
+            <div id="box">
+              <div id="box">
+                <div id="box">
+                  <div id="box">
+                    <div id="box">
+                      <div id="box">
+                        <div id="box">
+                          <div id="box">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <a class="bigButton" href="index.html">
+            Let me help you find the way
+          </a>
         </div>
       </div>
     </div>
@@ -157,8 +181,10 @@
     <!-- logo -->
 
     <h1>
-      <a href="index.html" title="AgrMayank"><img style="width: 50%; min-width: 72px"
-          src="images/AgrMayank Logo V02T.png" title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
+      <a href="index.html" title="AgrMayank">
+        <img style="width: 50%; min-width: 72px" src="images/AgrMayank Logo V01T.png" title="AgrMayank Logo"
+          alt="AgrMayank Logo" />
+      </a>
     </h1>
 
     <!-- logo -->
@@ -226,6 +252,11 @@
   </footer>
 
   <!-- footer -->
+
+  <!-- AOS (Animate On Scroll) -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> AOS.init(); </script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 

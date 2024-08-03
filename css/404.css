@@ -2,49 +2,68 @@
     404 page
 =======================*/
 
-.page_404 {
-  background: #ffffff;
+#loader {
+  position: relative;
+  left: 46%;
+  width: 5.4em;
+  height: 192px;
+  margin-bottom: 128px;
 }
 
-.page_404 img {
-  width: 100%;
+#box {
+  position: relative;
+  left: 0;
+  width: 12em;
+  height: 12em;
+  background-color: transparent;
+  border: 2px solid var(--color-text-title);
+  border-radius: 48%;
+  transform: translate(0, -1em) rotate(-45deg);
+  animation: push 4s cubic-bezier(.79, 0, .47, .97) infinite;
 }
 
-.four_zero_four_bg {
-  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-  height: 404px;
-  background-position: center;
-  margin-top: -128px;
-  background-repeat: no-repeat;
-}
+@keyframes push {
+  0% {
+    transform: translate(0, -1em) rotate(-45deg);
+  }
 
-.four_zero_four_bg h1 {
-  font-size: 80px;
-}
+  5% {
+    transform: translate(0, -1em) rotate(-50deg);
+  }
 
-.four_zero_four_bg h3 {
-  font-size: 80px;
-}
+  20% {
+    transform: translate(1em, -2em) rotate(47deg);
+  }
 
-.link_404 {
-  color: #fff !important;
-  padding: 15px 100px;
-  margin: 20px 0;
-  display: inline-block;
-  border-radius: 32px;
-  background: radial-gradient(circle, #ff8585 0%, #fb5353 100%);
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.02), 0 17px 50px 0 rgba(0, 0, 0, 0.05);
+  25% {
+    transform: translate(1em, -2em) rotate(45deg);
+  }
 
-  font-weight: bold;
-  font-size: x-large;
+  30% {
+    transform: translate(1em, -2em) rotate(40deg);
+  }
 
-  -webkit-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+  45% {
+    transform: translate(2em, -3em) rotate(137deg);
+  }
 
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
-}
+  50% {
+    transform: translate(2em, -3em) rotate(135deg);
+  }
 
-.link_404:hover {
-  -webkit-transform: rotate(-4deg) translate3d(0%, -4%, 0);
-  transform: rotate(0deg) translate3d(0%, -4%, 0);
+  55% {
+    transform: translate(2em, -3em) rotate(130deg);
+  }
+
+  70% {
+    transform: translate(3em, -4em) rotate(217deg);
+  }
+
+  75% {
+    transform: translate(3em, -4em) rotate(220deg);
+  }
+
+  100% {
+    transform: translate(0, -1em) rotate(-225deg);
+  }
 }
