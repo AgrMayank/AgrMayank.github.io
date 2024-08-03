@@ -35,7 +35,7 @@
   --color-dark: #161616;
   --color-black-transparent: #08080880;
   --color-dark-transparent: #161616bf;
-  --color-menu-transparent: #161616f1;
+  --color-menu-transparent: #161616f2;
   --color-loader-transparent: #161616ff;
   --color-white: #ffffff;
   --color-clear: #ffffff00;
@@ -310,13 +310,13 @@ button:focus,
 
 ::-moz-selection {
   background-color: var(--color-theme-red);
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   text-shadow: none;
 }
 
 ::selection {
   background-color: var(--color-theme-red);
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   text-shadow: none;
 }
 
@@ -360,7 +360,7 @@ header[role="header"] nav ul {
   background-color: var(--color-menu-transparent);
   padding: 0;
   margin: 0;
-  padding-top: 199px;
+  padding-top: 256px;
 }
 
 header[role="header"] nav ul>li {
@@ -371,7 +371,7 @@ header[role="header"] nav ul>li {
 
 header[role="header"] nav ul>li>a {
   display: block;
-  line-height: 72px;
+  line-height: 96px;
   color: var(--color-text-title);
 }
 
@@ -382,10 +382,10 @@ header[role="header"] nav ul>li.nav-active a {
 }
 
 header[role="header"] nav #menu-button {
-  width: 31px;
+  width: 40px;
   font-size: 0;
   float: right;
-  height: 19px;
+  height: 20px;
   position: relative;
   z-index: 70;
 
@@ -423,7 +423,7 @@ header[role="header"] nav #menu-button span {
 }
 
 header[role="header"] nav #menu-button span {
-  background: var(--color-white);
+  background: var(--color-text-title);
 }
 
 header[role="header"] nav #menu-button span:nth-child(1) {
@@ -560,7 +560,7 @@ footer[role="footer"] ul[role="social-icons"]>li>a {
   width: 42px;
   height: 42px;
   background-color: var(--color-dark);
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   line-height: 42px;
   font-size: 20px;
   border-radius: 100%;
@@ -594,7 +594,7 @@ main[role="main-inner-wrapper"] .about-content {
 main[role="main-inner-wrapper"] .about-content p {
   font-size: 17px;
   line-height: 30px;
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   padding-bottom: 20px;
 }
 
@@ -603,7 +603,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan {
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure {
-  background-color: var(--color-white);
+  background-color: var(--color-text-subtitle);
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -630,7 +630,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption {
   background-color: var(--color-theme-red);
   margin: 0 69px;
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   padding-top: 16px;
   padding-bottom: 27px;
 }
@@ -651,7 +651,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5 {
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,
 section.blog-content:hover article {
   background-color: var(--color-theme-red);
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
 }
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover img,
@@ -678,13 +678,13 @@ section.blog-content {
 section.blog-content figure {
   overflow: hidden;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: var(--color-dark-transparent);
   cursor: pointer;
 }
 
 section.blog-content figure .post-date {
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   font-weight: 800;
   font-size: 14px;
   line-height: 18px;
@@ -709,7 +709,7 @@ section.blog-content figure .post-date span {
 section.blog-content article {
   font-size: 21px;
   line-height: 30px;
-  color: var(--color-white);
+  color: var(--color-text-normal);
   font-weight: 800;
   color: var(--color-text-subtitle);
   padding-left: 42px;
@@ -819,7 +819,7 @@ article[role="pge-title-content"].contact-header p a:hover {
   line-height: 60px;
   text-transform: uppercase;
   font-size: 21px;
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   font-weight: 800;
   letter-spacing: 2px;
   background-color: var(--color-theme-red);
@@ -1045,7 +1045,7 @@ article[role="pge-title-content"].contact-header p a:hover {
   display: inline-block;
   font-size: 21px;
   line-height: 60px;
-  color: var(--color-white);
+  color: var(--color-text-subtitle);
   font-weight: bold;
   text-align: center;
   border: none;
@@ -1087,9 +1087,9 @@ article[role="pge-title-content"].contact-header p a:hover {
 .outline {
   position: relative;
   width: 100%;
-  color: #ffffff00;
+  color: var(--color-clear);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
+  -webkit-text-stroke-color: var(--color-text-subtitle);
   font-size: clamp(64px, 8vw, 256px);
   font-weight: 900;
   justify-content: center;
