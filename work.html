@@ -89,6 +89,10 @@
 
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
+    <!-- AOS (Animate On Scroll) -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- font-awesome -->
 
     <link href="css/fonts.css" rel="stylesheet" type="text/css" />
@@ -159,7 +163,7 @@
     <main role="main-inner-wrapper" class="container">
         <article role="pge-title-content" class="blog-header">
             <header>
-                <h2><span>Work</span> Experience</h2>
+                <h2 data-aos="fade-right" data-aos-duration="3000"><span data-aos="fade-right" data-aos-duration="3000">Work</span> Experience</h2>
             </header>
         </article>
 
@@ -543,6 +547,11 @@
             $(".loader").fadeOut(" slow");
         })
     </script>
+
+    <!-- AOS (Animate On Scroll) -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init(); </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
