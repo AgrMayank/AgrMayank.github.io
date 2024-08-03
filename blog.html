@@ -3,44 +3,83 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-  <!-- Description, Image, URL, Keywords and Author -->
+  <!-- Open Graph / Facebook - Title, Description, Image & URL -->
 
   <meta property="og:url" content="https://agrmayank.com/blog.html" />
-
-  <meta property="og:title" content="Blogs by AgrMayank | Merging Realities" />
-
-  <meta property="og:description" content="Get the latest articles & updates by AgrMayank." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Publications by AgrMayank | Merging Realities" />
+  <meta property="og:description"
+    content="Discover AgrMayank's latest publications and articles on cutting-edge immersive technology." />
 
   <meta property="og:image"
     content="https://github.com/AgrMayank/AgrMayank.github.io/blob/master/images/Portfolio%20Background%20v2.jpg?raw=true" />
   <meta property="og:image:secure_url"
     content="https://github.com/AgrMayank/AgrMayank.github.io/blob/master/images/Portfolio%20Background%20v2.jpg?raw=true" />
+
   <meta property="og:image:type" content="image/jpg" />
   <meta property="og:image:width" content="1280" />
-  <meta property="og:image:height" content="960" />
+  <meta property="og:image:height" content="720" />
   <meta property="og:image:alt" content="AgrMayank | Merging Realities" />
 
+  <!-- Twitter -->
+
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://agrmayank.com/" />
+  <meta property="twitter:title" content="Publications by AgrMayank | Merging Realities" />
+  <meta property="twitter:description"
+    content="Discover AgrMayank's latest publications and articles on cutting-edge immersive technology." />
+  <meta property="twitter:image"
+    content="https://github.com/AgrMayank/AgrMayank.github.io/blob/master/images/Portfolio%20Background%20v2.jpg?raw=true" />
+
+  <!-- Primary Meta Tags -->
+
+  <meta name="title" content="Publications by AgrMayank | Merging Realities" />
   <meta name="description"
-    content="AgrMayank | Merging Realities. Discover immersive experiences that merge reality and imagination. Explore Mayank Raj's stunning portfolio." />
+    content="Discover AgrMayank's latest publications and articles on cutting-edge immersive technology." />
+
+  <!-- Keywords & Author -->
 
   <meta name="keywords"
-    content="resume, agrmayank, AgrMayank, Mayank, Raj, Mayank Raj, creative, portfolio, website, blog, AgrMayank.com, metaverse, augmented reality, virtual reality, mixed reality, ar, vr, mr, xr, spatial computing" />
+    content="resume, agrmayank, AgrMayank, Mayank, Raj, Mayank Raj, creative, portfolio, website, blog, AgrMayank.com, metaverse, augmented reality, virtual reality, mixed reality, ar, vr, mr, xr, spatial computing, game development, game design, gaming, gamer, unity, unity3d" />
 
   <meta name="author" content="Mayank Raj" />
 
-  <title>Blogs by AgrMayank | Merging Realities</title>
+  <!-- Cache Website -->
 
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta http-equiv="Cache-control" content="public" />
+
+  <!-- Title -->
+
+  <title>Publications by AgrMayank | Merging Realities</title>
+
+  <!-- favicon -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="manifest" href="images/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- style -->
 
   <link href="css/style.css" rel="stylesheet" type="text/css" />
-
-  <!-- style -->
 
   <!-- bootstrap -->
 
@@ -56,17 +95,26 @@
 
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-  <!-- font-awesome -->
+  <!-- other css -->
 
   <link href="css/effects/normalize.css" rel="stylesheet" type="text/css" />
 
   <link href="css/effects/component.css" rel="stylesheet" type="text/css" />
 
+  <!-- jQuery -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
   <!-- Clarity tracking code for https://agrmayank.com/ -->
-  <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "jbunsrkff8");</script>
+
+  <script>
+    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i + "?ref=bwt"; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "jbunsrkff8");
+  </script>
+
 </head>
 
 <!-- Google tag (gtag.js) -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5PF42SSCY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -74,51 +122,35 @@
     dataLayer.push(arguments);
   }
   gtag("js", new Date());
-
   gtag("config", "G-J5PF42SSCY");
 </script>
 
 <body>
+
+  <!-- loader -->
+
+  <div class="loader">
+    <div id="box">
+      <div id="box">
+        <div id="box">
+          <div id="box">
+            <div id="box">
+              <div id="box">
+                <div id="box">
+                  <div id="box">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- header -->
 
-  <header role="header">
-    <div class="container">
-      <!-- logo -->
-
-      <h1>
-        <a href="index.html" title="AgrMayank"><img height="96" src="images/AgrMayank Logo V01.jpg"
-            title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
-      </h1>
-
-      <!-- logo -->
-
-      <!-- nav -->
-
-      <nav role="header-nav" class="navy">
-        <ul>
-          <li class="nav-active">
-            <a href="index.html" title="Home"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-          </li>
-          <li>
-            <a href="blog.html" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Articles
-              (Blog)</a>
-          </li>
-          <li>
-            <a href="projects.html" title="Projects"><i class="fa fa-git" aria-hidden="true"></i> Open Source
-              Projects</a>
-          </li>
-          <hr style="color: #66666666;border: 2px dashed;" />
-          <li>
-            <a href="cv/Resume - Mayank Raj.pdf" title="Resume" target="_blank">
-              <i class="fa fa-download" aria-hidden="true"></i> Resume (CV)
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- nav -->
-    </div>
-  </header>
+  <header-component></header-component>
 
   <!-- header -->
 
@@ -127,16 +159,17 @@
   <main role="main-inner-wrapper" class="container">
     <article role="pge-title-content" class="blog-header">
       <header>
-        <h2><span>Blogs</span> by AgrMayank</h2>
+        <h2><span>Publications</span> by AgrMayank</h2>
       </header>
-      <article class="about-content">
-        <h3 style="color: white">
-          Get the latest articles & updates from platforms like
-          <strong>Medium</strong>, <strong>LinkedIn</strong> and more.
-        </h3>
-        <hr style="border: 2px dashed white;" />
-      </article>
     </article>
+
+    <!-- nav bar -->
+
+    <navbar-component></navbar-component>
+
+    <!-- nav bar -->
+
+    <hr style="border: 2px dashed; min-width: 554px; width: 100%;" />
 
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -153,7 +186,9 @@
                 </figure>
               </a>
 
-              <article>Building AR Apps with Flutter and ARwayKit</article>
+              <article>
+                <p>Building AR Apps with Flutter and ARwayKit</p>
+              </article>
             </section>
           </li>
 
@@ -170,7 +205,7 @@
               </a>
 
               <article>
-                Creating World Scale AR Experiences Using Smartphones!
+                <p>Creating World Scale AR Experiences Using Smartphones!</p>
               </article>
             </section>
           </li>
@@ -186,7 +221,9 @@
                 </figure>
               </a>
 
-              <article>My Journey till #2020, 1 Step at a Time 🥽</article>
+              <article>
+                <p>My Journey till #2020, 1 Step at a Time 🥽</p>
+              </article>
             </section>
           </li>
         </ul>
@@ -204,7 +241,9 @@
                 </figure>
               </a>
 
-              <article>How to Create Augmented Reality Apps</article>
+              <article>
+                <p>How to Create Augmented Reality Apps</p>
+              </article>
             </section>
           </li>
 
@@ -219,7 +258,9 @@
                 </figure>
               </a>
 
-              <article>Point Clouds and it's significance in AR!</article>
+              <article>
+                <p>Point Clouds and it's significance in AR!</p>
+              </article>
             </section>
           </li>
 
@@ -236,92 +277,37 @@
               </a>
 
               <article>
-                Getting started in Augmented Reality (AR) using Unity
+                <p>Getting started in Augmented Reality (AR) using Unity</p>
               </article>
             </section>
           </li>
         </ul>
       </div>
     </div>
+
   </main>
 
   <!-- main - blogs -->
 
   <!-- footer -->
 
-  <footer role="footer">
-    <!-- logo -->
-
-    <h1>
-      <a href="index.html" title="AgrMayank"><img style="width: 50%; min-width: 72px"
-          src="images/AgrMayank Logo V02T.png" title="AgrMayank Logo" alt="AgrMayank Logo" /></a>
-    </h1>
-
-    <!-- logo -->
-
-    <!-- nav -->
-
-    <nav role="footer-nav">
-      <ul>
-        <li class="nav-active">
-          <a href="index.html" title="Home" style="font-size: larger"><i class="fa fa-home" aria-hidden="true"></i>
-            Home</a>
-        </li>
-        <li>
-          <a href="blog.html" title="Blog" style="font-size: larger"><i class="fa fa-newspaper-o"
-              aria-hidden="true"></i> Articles
-            (Blog)</a>
-        </li>
-        <li>
-          <a href="projects.html" title="Projects" style="font-size: larger"><i class="fa fa-git"
-              aria-hidden="true"></i> Open Source
-            Projects</a>
-        </li>
-        <li>
-          <a href="cv/Resume - Mayank Raj.pdf" title="Resume" target="_blank" style="font-size: larger">
-            <i class="fa fa-download" aria-hidden="true"></i> Resume (CV)
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- nav -->
-
-    <ul role="social-icons">
-      <li>
-        <a href="mailto:hello@agrmayank.com?subject=[what-do-you-want-to-talk-about]&body=Hi, My name is [name] and I am reaching out about [matter]"
-          target="_blank"><i class="fa fa-envelope"></i></a>
-      </li>
-      <li>
-        <a href="https://linkedin.com/in/AgrMayank/" target="_blank"><i class="fa fa-linkedin"></i></a>
-      </li>
-      <li>
-        <a href="https://github.com/AgrMayank" target="_blank"><i class="fa fa-github"></i></a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/@agrmayank" target="_blank"><i class="fa fa-youtube-play"></i></a>
-      </li>
-      <li>
-        <a href="https://instagram.com/myid.mayank/" target="_blank"><i class="fa fa-instagram"></i></a>
-      </li>
-      <li>
-        <a href="https://facebook.com/myid.mayank" target="_blank"><i class="fa fa-facebook"></i></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/myid_mayank" target="_blank"><i class="fa fa-twitter"></i></a>
-      </li>
-    </ul>
-
-    <p class="copy-right">
-      &copy;
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-      | Theme by Avana LLC.
-    </p>
-  </footer>
+  <footer-component></footer-component>
 
   <!-- footer -->
+
+  <!-- Embedded HTML -->
+
+  <script src="js/footer.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/navbar.js"></script>
+
+  <!-- Loader -->
+
+  <script>
+    $(window).on("load", function () {
+      $(".loader").fadeOut(" slow");
+    })
+  </script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
