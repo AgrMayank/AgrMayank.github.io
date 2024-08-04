@@ -28,7 +28,7 @@ class Header extends HTMLElement {
                             <a href="work.html" title="Work Experience"><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</a>
                         </li>
                         <li>
-                            <a href="blog.html" title="Publications"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Publications (Articles)</a>
+                            <a href="blog.html" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog (Articles)</a>
                         </li>
                         <li>
                             <a href="projects.html" title="Projects"><i class="fa fa-git" aria-hidden="true"></i> Open Source Projects</a>

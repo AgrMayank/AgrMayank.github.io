@@ -23,9 +23,9 @@ class NavBar extends HTMLElement {
                     </a>
                     </li>
                     <li>
-                    <a href="blog.html" title="Publications" style="font-size: larger"><i class="fa fa-newspaper-o"
+                    <a href="blog.html" title="Blog" style="font-size: larger"><i class="fa fa-newspaper-o"
                         aria-hidden="true"></i>
-                        <b> Publications</b>
+                        <b> Blog</b>
                     </a>
                     </li>
                     <li>
