@@ -255,7 +255,7 @@ q:after {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: wavy underline;
 
   outline: none;
 
@@ -295,6 +295,7 @@ button:focus,
 }
 
 .bigButton:hover {
+  text-decoration: wavy underline;
   background-color: var(--color-theme-red);
   color: var(--color-text-subtitle);
 }
@@ -382,7 +383,7 @@ header[role="header"] nav ul>li>a {
 
 header[role="header"] nav ul>li:hover a,
 header[role="header"] nav ul>li.nav-active a {
-  text-decoration: none;
+  text-decoration: wavy underline;
   color: var(--color-theme-red);
 }
 
@@ -544,7 +545,7 @@ footer[role="footer"] nav>ul>li>a {
 }
 
 footer[role="footer"] nav>ul>li:hover a {
-  text-decoration: none;
+  text-decoration: wavy underline;
   color: var(--color-theme-red);
 }
 
@@ -573,6 +574,7 @@ footer[role="footer"] ul[role="social-icons"]>li>a {
 }
 
 footer[role="footer"] ul[role="social-icons"]>li:hover a {
+  text-decoration: wavy underline;
   background-color: var(--color-theme-red);
 }
 
@@ -655,6 +657,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption h5 {
 
 main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover,
 section.blog-content:hover article {
+  text-decoration: wavy underline;
   background-color: var(--color-theme-red);
   color: var(--color-text-subtitle);
 }
@@ -738,8 +741,8 @@ article[role="pge-title-content"].contact-header p a {
 }
 
 article[role="pge-title-content"].contact-header p a:hover {
+  text-decoration: wavy underline;
   color: var(--color-theme-red);
-  text-decoration: none;
 }
 
 .demo-wrapper {
@@ -833,6 +836,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .contat-from-wrapper input[type="submit"]:hover {
+  text-decoration: wavy underline;
   background-color: var(--color-theme-red);
 }
 
@@ -865,10 +869,11 @@ article[role="pge-title-content"].contact-header p a:hover {
 
 .work-details header a:hover {
   color: var(--color-text-title);
-  text-decoration: none;
+  text-decoration: wavy underline;
 }
 
 .work-details header a:hover i {
+  text-decoration: wavy underline;
   color: var(--color-theme-red);
 }
 
@@ -1060,6 +1065,7 @@ article[role="pge-title-content"].contact-header p a:hover {
 }
 
 .comments-form input[type="button"]:hover {
+  text-decoration: wavy underline;
   background-color: var(--color-theme-red);
 }
 

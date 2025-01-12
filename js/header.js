@@ -21,9 +21,9 @@ class Header extends HTMLElement {
 
                     <nav role="header-nav" class="navy">
                         <ul>
-                        <li class="nav-active">
+                        <!--<li class="nav-active">
                             <a href="index.html" title="Home"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a href="work.html" title="Work Experience"><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</a>
                         </li>
