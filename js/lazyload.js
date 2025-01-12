@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     var lazyloadElements = document.querySelectorAll(".lazyload");
-    var observer;
 
     function loadIframe(iframe) {
         iframe.src = iframe.getAttribute("data-src");
@@ -8,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if ("IntersectionObserver" in window) {
-        observer = new IntersectionObserver(function (entries, observer) {
+        var observer = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
                     loadIframe(entry.target);
