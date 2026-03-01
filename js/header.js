@@ -23,10 +23,10 @@ class Header extends HTMLElement {
                         <ul>
                         <!--<li class="nav-active">
                             <a href="index.html" title="Home"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-                        </li>-->
+                        </li>
                         <li>
                             <a href="work.html" title="Work Experience"><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a href="blog.html" title="Blog"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog (Articles)</a>
                         </li>

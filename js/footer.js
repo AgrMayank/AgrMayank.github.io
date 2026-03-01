@@ -25,12 +25,12 @@ class Footer extends HTMLElement {
                         <b>Home</b>
                     </a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="work.html" title="Work Experience" style="font-size: larger"><i class="fa fa-briefcase"
                         aria-hidden="true"></i>
                         <b>Work Experience</b>
                     </a>
-                </li>
+                </li>-->
                 <li>
                     <a href="cv/Resume - Mayank Raj.pdf" title="Resume" target="_blank" style="font-size: larger">
                         <i class="fa fa-download" aria-hidden="true"></i>
